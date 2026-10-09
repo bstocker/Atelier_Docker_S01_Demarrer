@@ -37,10 +37,13 @@ Vous n'avez **rien à installer** : Codespaces fournit un environnement Linux en
 2. Laissez votre compte comme **Owner**, gardez le nom proposé, choisissez **Private** si vous le souhaitez, puis cliquez sur **Create repository**.
 3. Sur la page de **votre** repository, cliquez sur **Code** → onglet **Codespaces** → **Create codespace on main**.
 
-Patientez quelques instants : un éditeur VS Code s'ouvre dans votre navigateur. Le terminal se trouve en bas de l'écran (sinon : menu **☰** → **Terminal** → **New Terminal**).
-
-Vérifiez que Docker répond :
-
+Patientez quelques instants : un éditeur VS Code s'ouvre dans votre navigateur. Cliquez sur **[Approuver le dossier et continuer]**  
+Le terminal se trouve en bas de l'écran (sinon : menu **☰** → **Terminal** → **New Terminal**).  
+  
+<img width="2866" height="1536" alt="image" src="https://github.com/user-attachments/assets/e711a834-a46a-4437-8b02-710dfe810bea" />
+  
+Vérifiez que Docker répond :  
+Dans le terminal juste à coté du symbole **$** tapez la commande suivant (vous pouvez faire un copier/coller si vous le voulez).
 ```bash
 docker --version
 ```
