@@ -22,13 +22,13 @@ Vous n'avez **rien à installer** : Codespaces fournit un environnement Linux en
 ---
 
 ## Étape 1 – Créer un compte GitHub
-
+  
+> Si vous avez déjà un compte GitHub, passez directement à l'étape 2.  
+  
 1. Rendez-vous sur [https://github.com](https://github.com).
 2. Cliquez sur **Sign up** et suivez les instructions.
 3. Validez votre adresse e-mail.
-
-> Si vous avez déjà un compte GitHub, passez directement à l'étape 2.
-
+  
 ---
 
 ## Étape 2 – Créer votre copie de l'atelier et lancer un Codespace
