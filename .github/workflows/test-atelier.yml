@@ -1,0 +1,20 @@
+# Vérifie chaque semaine que l'atelier fonctionne toujours de bout en bout
+name: Test de l'atelier
+
+on:
+  push:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  atelier:
+    # Ne tourne que sur le modèle d'origine, pas sur les copies des étudiants
+    if: github.event.repository.is_template
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dérouler l'atelier
+        run: bash tests/solution.sh
+      - name: Lancer le vérificateur
+        run: bash verifier.sh
