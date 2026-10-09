@@ -1,0 +1,2 @@
+# Scripts toujours en fin de ligne Linux, même si le dépôt est poussé depuis Windows
+*.sh text eol=lf
