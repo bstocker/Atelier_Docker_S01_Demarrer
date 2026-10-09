@@ -133,8 +133,12 @@ Rechargez la page dans votre navigateur : votre message s'affiche.
 | `mon-site`            | Le conteneur visé                                                |
 | `sh -c '...'`         | Lance un shell qui exécute la commande entre apostrophes         |
 
----
+---  
+Voici un petit schéma pour illustrer cette action d'entrer dans un Docker :  
 
+  <img width="2342" height="744" alt="image" src="https://github.com/user-attachments/assets/f5396601-db03-4267-8ea4-4e796198fa11" />  
+
+    
 ## ✅ Vérifier votre travail
 
 Votre conteneur `mon-site` doit être **démarré** avec votre page personnalisée. Lancez :
