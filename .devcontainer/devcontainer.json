@@ -1,0 +1,17 @@
+{
+  "name": "EPSI - Atelier Docker",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "Mon site web", "onAutoForward": "notify" }
+  },
+  "postCreateCommand": "chmod +x verifier.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-azuretools.vscode-docker"]
+    }
+  }
+}
